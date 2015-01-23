@@ -1,3 +1,56 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font: normal 62.5% Georgia, sans;
 }
@@ -16,7 +69,7 @@ body > #wrapper {
 }
 
 body {
-  background: url(../i/noise.png);
+  background: url(../images/noise.png);
 }
 
 #header__title {
@@ -70,12 +123,7 @@ body {
   border-bottom: dotted 1px black;
 }
 .notesNav__note.active {
-  background: #f5eee0;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -khtml-border-radius: 10px;
+  background: #F5EEE0;
   border-radius: 10px;
 }
 .notesNav__note.active a {
@@ -107,7 +155,7 @@ body {
   display: block;
   width: 9px;
   height: 12px;
-  background: url(../i/eduControl-icons.png) no-repeat;
+  background: url(../images/eduControl-icons.png) no-repeat;
   position: absolute;
   top: 2px;
   left: -11px;
@@ -121,7 +169,7 @@ body {
   display: block;
   width: 14px;
   height: 12px;
-  background: url(../i/eduControl-icons.png) no-repeat;
+  background: url(../images/eduControl-icons.png) no-repeat;
   background-position: -20px 0px;
   position: absolute;
   top: 2px;
@@ -129,13 +177,10 @@ body {
 }
 
 #a-eduStart, #a-shuffleNotes {
-  display: -moz-inline-box;
-  -moz-box-orient: vertical;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-}
-#a-eduStart, #a-shuffleNotes {
+  *zoom: 1;
   *display: inline;
 }
 
@@ -163,7 +208,7 @@ body {
 .fingerPlace {
   width: 24px;
   height: 24px;
-  background: url(../i/fingerPlace-bg.png) no-repeat;
+  background: url(../images/fingerPlace-bg.png) no-repeat;
   position: absolute;
   text-align: center;
   font: 14px/24px Arial, sans-serif;
@@ -183,7 +228,7 @@ body {
   display: block;
   width: 5px;
   height: 1px;
-  background: #b0b1af;
+  background: #B0B1AF;
   position: absolute;
   top: 7px;
   right: -13px;
@@ -193,7 +238,7 @@ body {
   display: block;
   width: 1px;
   height: 176px;
-  background: #b0b1af;
+  background: #B0B1AF;
   position: absolute;
   top: 7px;
   right: -14px;
@@ -208,7 +253,7 @@ body {
   display: block;
   width: 5px;
   height: 1px;
-  background: #b0b1af;
+  background: #B0B1AF;
   position: absolute;
   top: 7px;
   left: -17px;
@@ -216,9 +261,9 @@ body {
 
 #leftHands__link, #rightHands__link {
   font-size: 12px;
-  color: #8a8b8a;
+  color: #8A8B8A;
   text-decoration: none;
-  border-bottom: dotted 1px #8a8b8a;
+  border-bottom: dotted 1px #8A8B8A;
 }
 
 #notes {
