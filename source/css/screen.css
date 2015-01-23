@@ -105,10 +105,24 @@ body {
   margin-left: 185px;
 }
 
+#footer {
+  position: relative;
+  margin-top: -100px;
+  height: 100px;
+  text-align: center;
+}
+
+#developer__copyright, #developer__mail {
+  font-size: 1.2em;
+  color: black;
+}
+
 .notesNav {
+  padding: 2.4%;
   width: 100%;
   overflow: hidden;
   margin-bottom: 67px;
+  box-sizing: border-box;
 }
 
 .notesNav__note {
@@ -122,16 +136,16 @@ body {
   text-decoration: none;
   border-bottom: dotted 1px black;
 }
+.notesNav__note span {
+  position: relative;
+  top: -2px;
+}
 .notesNav__note.active {
   background: #F5EEE0;
   border-radius: 10px;
 }
 .notesNav__note.active a {
   border-bottom: none;
-}
-.notesNav__note span {
-  position: relative;
-  top: -2px;
 }
 
 #eduControl {
@@ -150,7 +164,7 @@ body {
   position: relative;
   margin-right: 28px;
 }
-#a-eduStart:before {
+#a-eduStart::before {
   content: "";
   display: block;
   width: 9px;
@@ -164,7 +178,7 @@ body {
 #a-shuffleNotes {
   position: relative;
 }
-#a-shuffleNotes:before {
+#a-shuffleNotes::before {
   content: "";
   display: block;
   width: 14px;
@@ -178,22 +192,6 @@ body {
 
 #a-eduStart, #a-shuffleNotes {
   display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-}
-
-#footer {
-  position: relative;
-  margin-top: -100px;
-  height: 100px;
-  text-align: center;
-}
-
-#developer__copyright, #developer__mail {
-  font-size: 1.2em;
-  color: black;
 }
 
 #blockFlute {
@@ -223,7 +221,7 @@ body {
   top: -32px;
   left: 530px;
 }
-#positionLeftHands:before {
+#positionLeftHands::before {
   content: "";
   display: block;
   width: 5px;
@@ -233,7 +231,7 @@ body {
   top: 7px;
   right: -13px;
 }
-#positionLeftHands:after {
+#positionLeftHands::after {
   content: "";
   display: block;
   width: 1px;
@@ -248,7 +246,7 @@ body {
   top: 143px;
   left: 630px;
 }
-#positionRightHands:before {
+#positionRightHands::before {
   content: "";
   display: block;
   width: 5px;

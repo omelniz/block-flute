@@ -1,19 +1,20 @@
-@import compass/css3
-
 // Панель управления режимом обучения
 #eduControl
 	text-align: center
 	margin-bottom: 56px
 	padding-left: 13px
+
 	a
 		font-size: 14px
 		color: black
 		text-decoration: none
 		border-bottom: dotted 1px black
+
 #a-eduStart
 	position: relative
 	margin-right: 28px
-	&:before
+
+	&::before
 		content: ''
 		display: block
 		width: 9px
@@ -22,9 +23,11 @@
 		position: absolute
 		top: 2px
 		left: -11px
+
 #a-shuffleNotes
 	position: relative
-	&:before
+
+	&::before
 		content: ''
 		display: block
 		width: 14px
@@ -34,5 +37,6 @@
 		position: absolute
 		top: 2px
 		left: -17px
+
 #a-eduStart, #a-shuffleNotes
-	+inline-block
+	display: inline-block

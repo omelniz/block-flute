@@ -7,6 +7,7 @@
 		right: auto
 		bottom: 0px
 		left: auto
+
 .fingerPlace
 	width: 24px
 	height: 24px
@@ -15,12 +16,15 @@
 	text-align: center
 	font: 14px/24px Arial, sans-serif
 	color: white
+
 #positionLeftHands, #positionRightHands
 	position: absolute
+
 #positionLeftHands
 	top: -32px
 	left: 530px
-	&:before
+
+	&::before
 		content: ''
 		display: block
 		width: 5px
@@ -29,7 +33,8 @@
 		position: absolute
 		top: 7px
 		right: -13px
-	&:after
+
+	&::after
 		content: ''
 		display: block
 		width: 1px
@@ -38,10 +43,12 @@
 		position: absolute
 		top: 7px
 		right: -14px
+
 #positionRightHands
 	top: 143px
 	left: 630px
-	&:before
+
+	&::before
 		content: ''
 		display: block
 		width: 5px
@@ -50,6 +57,7 @@
 		position: absolute
 		top: 7px
 		left: -17px
+
 #leftHands__link, #rightHands__link
 	font-size: 12px
 	color: #8A8B8A
