@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />    
+    <meta name="description" content="Аппликатура для блок-флейты, барочной и Германской системы" />    
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+
+    <title>Аппликатура для блок-флейты</title>
+    
+    <link rel="stylesheet" href="webroot/css/reset.css"  media="all" />
+    <link rel="stylesheet" href="webroot/css/screens.css"  media="all" />    
+
+    <link rel="shortcut icon" type="image/x-icon" href="webroot/favicon.ico" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- Шапка (начало) -->
+        <header id="header">
+            <hgroup id="header__title">
+                <h1>Аппликатура для блок-флейты</h1>
+                <h2 id="selectFingering"><strong>Барочной</strong> и <a href="#GermanSystem">Германской</a> системы</h2>
+                <span id="betaVersion">&szlig;-версия</span>
+            </hgroup>
+        </header>
+        <!-- Шапка (конец) -->
+
+        <div id="mainContent">        
+
+        <!-- Панель управления режимом обучения (начало) -->
+        <section id="eduControl">
+            <a id="a-eduStart" href="#" title="Начать практическое изучение игры на блок-флейте">Начать обучение</a>
+            <a id="a-shuffleNotes" href="#" title="Научиться играть ноты в случайном порядке">Перемешать ноты</a>
+        </section>
+        <!-- Панель управления режимом обучения (конец) -->
+
+        <!-- Блок-флейта (начало) -->
+        <section id="blockFlute">
+            <img id="blockFlute__picture" src="webroot/i/blockFlute.png" />
+
+            <div id="positionLeftHands">
+                <a id="leftHands__link" href="#" title="Схема расположение пальцев левой руки">Левая рука?</a>
+            </div>
+            <div id="positionRightHands">
+                <a id="rightHands__link" href="#" title="Схема расположение пальцев правой руки">Правая рука?</a>
+            </div>           
+        </section>
+        <!-- Блок-флейта (конец) -->
+
+        <!-- Ноты (начало) -->
+        <section id="notes">
+            <img src="webroot/image/notes.png" alt="Ноты" />
+        </section>
+        <!-- Ноты (конец) -->
+
+        </div><!-- #mainContent (конец) -->
+
+    </div><!-- #wrapper (конец) -->
+
+    <!-- Подвал (начало) -->
+    <footer id="footer">
+        <p id="developer">
+            <small id="developer__copyright">&copy; Александр Омельницкий, 2012</small><br />
+            <a id="developer__mail" href="mailto:mail@fingering.ru" title="Написать письмо Александру">mail@fingering.ru</a>
+        </p>
+        <!-- Социальные кнопки (начало) -->
+        <section id="social">
+
+        </section>
+        <!-- Социальные кнопки (конец) -->
+    </footer>
+    <!-- Подвал (конец) -->
+        
+    <script src="webroot/js/libs/LAB.min.js"></script>
+    <script type="text/javascript">
+        $LAB        
+        // Libs
+        .script("webroot/js/libs/jquery-1.7.2.min.js")
+        .script("webroot/js/libs/underscore.js")
+        .wait()
+        .script("webroot/js/libs/backbone.js")
+        .wait()
+        .script("webroot/js/main.js")                
+        .wait();         
+    </script>        
+</body>
+</html>

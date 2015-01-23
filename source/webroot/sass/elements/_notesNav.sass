@@ -1,0 +1,25 @@
+@import "compass/css3"
+
+// Навигация по нотам
+.notesNav
+	//padding: 2.4%
+	width: 100%
+	overflow: hidden
+	margin-bottom: 67px
+.notesNav__note
+	float: left
+	padding: 3px 2.2%
+	text-align: center
+	font: 1.6em Arial, sans-serif
+	a
+		color: black
+		text-decoration: none
+		border-bottom: dotted 1px black	
+	&.active
+		background: #F5EEE0
+		+border-radius(10px)
+		a
+			border-bottom: none
+	span
+		position: relative
+		top: -2px

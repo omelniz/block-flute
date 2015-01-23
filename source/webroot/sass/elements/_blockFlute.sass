@@ -1,0 +1,57 @@
+// Блок-флейта
+#blockFlute
+	position: relative
+	width: 1001px
+	padding-bottom: 78px
+	margin: 		
+		right: auto
+		bottom: 0px
+		left: auto
+.fingerPlace
+	width: 24px
+	height: 24px
+	background: url(../i/fingerPlace-bg.png) no-repeat
+	position: absolute
+	text-align: center
+	font: 14px/24px Arial, sans-serif
+	color: white
+#positionLeftHands, #positionRightHands
+	position: absolute
+#positionLeftHands
+	top: -32px
+	left: 530px
+	&:before
+		content: ''
+		display: block
+		width: 5px
+		height: 1px
+		background: #B0B1AF
+		position: absolute
+		top: 7px
+		right: -13px
+	&:after
+		content: ''
+		display: block
+		width: 1px
+		height: 176px
+		background: #B0B1AF
+		position: absolute
+		top: 7px
+		right: -14px
+#positionRightHands
+	top: 143px
+	left: 630px
+	&:before
+		content: ''
+		display: block
+		width: 5px
+		height: 1px
+		background: #B0B1AF
+		position: absolute
+		top: 7px
+		left: -17px
+#leftHands__link, #rightHands__link	
+	font-size: 12px
+	color: #8A8B8A
+	text-decoration: none
+	border-bottom: dotted 1px #8A8B8A	

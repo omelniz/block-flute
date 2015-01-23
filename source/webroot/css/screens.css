@@ -1,0 +1,229 @@
+body {
+  font: normal 62.5% Georgia, sans;
+}
+
+html, body, #wrapper {
+  height: 100%;
+}
+
+body > #wrapper {
+  height: auto;
+  min-height: 100%;
+}
+
+#mainContent {
+  padding-bottom: 100px;
+}
+
+body {
+  background: url(../i/noise.png);
+}
+
+#header__title {
+  padding-top: 35px;
+  margin-bottom: 29px;
+  position: relative;
+  text-align: center;
+}
+#header__title h1 {
+  font-size: 1.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 9px;
+}
+
+#selectFingering {
+  font-size: 1.4em;
+  font-weight: normal;
+}
+#selectFingering a {
+  color: black;
+  text-decoration: none;
+  border-bottom: dotted 1px black;
+}
+
+#betaVersion {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  color: #999999;
+  font-size: 1.2em;
+  margin-left: 185px;
+}
+
+.notesNav {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 67px;
+}
+
+.notesNav__note {
+  float: left;
+  padding: 3px 2.2%;
+  text-align: center;
+  font: 1.6em Arial, sans-serif;
+}
+.notesNav__note a {
+  color: black;
+  text-decoration: none;
+  border-bottom: dotted 1px black;
+}
+.notesNav__note.active {
+  background: #f5eee0;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+.notesNav__note.active a {
+  border-bottom: none;
+}
+.notesNav__note span {
+  position: relative;
+  top: -2px;
+}
+
+#eduControl {
+  text-align: center;
+  margin-bottom: 56px;
+  padding-left: 13px;
+}
+#eduControl a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  border-bottom: dotted 1px black;
+}
+
+#a-eduStart {
+  position: relative;
+  margin-right: 28px;
+}
+#a-eduStart:before {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 12px;
+  background: url(../i/eduControl-icons.png) no-repeat;
+  position: absolute;
+  top: 2px;
+  left: -11px;
+}
+
+#a-shuffleNotes {
+  position: relative;
+}
+#a-shuffleNotes:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 12px;
+  background: url(../i/eduControl-icons.png) no-repeat;
+  background-position: -20px 0px;
+  position: absolute;
+  top: 2px;
+  left: -17px;
+}
+
+#a-eduStart, #a-shuffleNotes {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+}
+#a-eduStart, #a-shuffleNotes {
+  *display: inline;
+}
+
+#footer {
+  position: relative;
+  margin-top: -100px;
+  height: 100px;
+  text-align: center;
+}
+
+#developer__copyright, #developer__mail {
+  font-size: 1.2em;
+  color: black;
+}
+
+#blockFlute {
+  position: relative;
+  width: 1001px;
+  padding-bottom: 78px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.fingerPlace {
+  width: 24px;
+  height: 24px;
+  background: url(../i/fingerPlace-bg.png) no-repeat;
+  position: absolute;
+  text-align: center;
+  font: 14px/24px Arial, sans-serif;
+  color: white;
+}
+
+#positionLeftHands, #positionRightHands {
+  position: absolute;
+}
+
+#positionLeftHands {
+  top: -32px;
+  left: 530px;
+}
+#positionLeftHands:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 1px;
+  background: #b0b1af;
+  position: absolute;
+  top: 7px;
+  right: -13px;
+}
+#positionLeftHands:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 176px;
+  background: #b0b1af;
+  position: absolute;
+  top: 7px;
+  right: -14px;
+}
+
+#positionRightHands {
+  top: 143px;
+  left: 630px;
+}
+#positionRightHands:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 1px;
+  background: #b0b1af;
+  position: absolute;
+  top: 7px;
+  left: -17px;
+}
+
+#leftHands__link, #rightHands__link {
+  font-size: 12px;
+  color: #8a8b8a;
+  text-decoration: none;
+  border-bottom: dotted 1px #8a8b8a;
+}
+
+#notes {
+  width: 585px;
+  margin-right: auto;
+  margin-bottom: 64px;
+  margin-left: auto;
+}
