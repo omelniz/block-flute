@@ -1,3 +1,5 @@
+![Preview](https://github.com/omelniz/block-flute/blob/master/preview.png)
+
 # Block Flute
 Тренажер по изучению нот и расположению пальцев на блок флейте в барочной и германской аппликатуре.
 
